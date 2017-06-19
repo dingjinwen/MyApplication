@@ -1,0 +1,1 @@
+include ':app', ':base_adapter_listview_or_gridview_library', ':base_adapter_recyclerview_library', ':test'

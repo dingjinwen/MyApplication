@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_adapter_listview_or_gridview_library/base_adapter_listview_or_gridview_library.iml" filepath="$PROJECT_DIR$/base_adapter_listview_or_gridview_library/base_adapter_listview_or_gridview_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_adapter_recyclerview_library/base_adapter_recyclerview_library.iml" filepath="$PROJECT_DIR$/base_adapter_recyclerview_library/base_adapter_recyclerview_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

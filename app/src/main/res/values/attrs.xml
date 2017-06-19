@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="toolBarTitleColor" format="color" />
+
+    <declare-styleable name="PagerSlidingIndicator">
+        <attr name="background_stroke_color" format="color" />
+        <attr name="background_stroke_width" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="checked_background_color" format="color" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="shouldExpand" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TransitionTextView">
+        <attr name="transition_start_color" format="color" />
+        <attr name="transition_end_color" format="color" />
+    </declare-styleable>
+</resources>

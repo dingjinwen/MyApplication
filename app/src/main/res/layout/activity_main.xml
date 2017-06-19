@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--
+     //导航栏背景颜色
+        android:background="#ffff00"
+        //指示器颜色
+        app:tabIndicatorColor="#66ff33"
+        //指示器高度
+        app:tabIndicatorHeight="20p"
+        //普通状态下文字的颜色
+        app:tabTextColor="@color/colorPrimary"
+        //选中时文字的颜色
+        app:tabSelectedTextColor="#CC33FF"
+        //是否可滑动：fixed：固定；scrollable：可滑动
+        app:tabMode="fixed"
+        //设置选项卡的背景：此处要写一个selector）
+        app:tabBackground="@drawable/selected"
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="fixed" />
+</LinearLayout>
