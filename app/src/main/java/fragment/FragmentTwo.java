@@ -4,8 +4,8 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 
-import com.example.administrator.myapplication.MainActivity;
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.MainActivity;
+import com.pay.administrator.myapplication.R;
 
 import base.BaseFragment;
 import butterknife.BindView;

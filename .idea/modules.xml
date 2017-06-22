@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adaper_test/adaper_test.iml" filepath="$PROJECT_DIR$/adaper_test/adaper_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_adapter_listview_or_gridview_library/base_adapter_listview_or_gridview_library.iml" filepath="$PROJECT_DIR$/base_adapter_listview_or_gridview_library/base_adapter_listview_or_gridview_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/base_adapter_recyclerview_library/base_adapter_recyclerview_library.iml" filepath="$PROJECT_DIR$/base_adapter_recyclerview_library/base_adapter_recyclerview_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base_pay_library/base_pay_library.iml" filepath="$PROJECT_DIR$/base_pay_library/base_pay_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay_test/pay_test.iml" filepath="$PROJECT_DIR$/pay_test/pay_test.iml" />
     </modules>
   </component>
 </project>

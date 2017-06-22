@@ -2,7 +2,7 @@ package adapter;
 
 import android.content.Context;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 import java.util.List;
 

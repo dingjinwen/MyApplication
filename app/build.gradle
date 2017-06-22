@@ -36,7 +36,4 @@ dependencies {
     compile 'com.mcxiaoke.volley:library:1.0.19'
     compile files('libs/gson-2.6.2.jar')
     compile files('libs/glide-3.6.1.jar')
-    compile files('libs/alipaySdk-20170309.jar')
-    compile project(':base_adapter_listview_or_gridview_library')
-    compile project(':base_adapter_recyclerview_library')
 }

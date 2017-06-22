@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 
 /**

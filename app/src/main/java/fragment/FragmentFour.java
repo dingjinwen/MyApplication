@@ -2,7 +2,7 @@ package fragment;
 
 import android.widget.TextView;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 import base.BaseFragment;
 import butterknife.BindView;

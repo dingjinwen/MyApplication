@@ -7,7 +7,7 @@ import android.util.LruCache;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 /**
  * @author dingjinwen

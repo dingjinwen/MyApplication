@@ -37,7 +37,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 
 public class PagerSlidingIndicator extends HorizontalScrollView {

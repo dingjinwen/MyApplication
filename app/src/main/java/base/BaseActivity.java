@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 import org.greenrobot.eventbus.EventBus;
 

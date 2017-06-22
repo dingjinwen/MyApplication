@@ -1,1 +1,1 @@
-include ':app', ':base_adapter_listview_or_gridview_library', ':base_adapter_recyclerview_library', ':test'
+include ':app', ':base_adapter_listview_or_gridview_library', ':base_adapter_recyclerview_library', ':adaper_test', ':base_pay_library', ':pay_test'

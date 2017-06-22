@@ -2,13 +2,12 @@ package fragment;
 
 import android.widget.TextView;
 
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.R;
 
 import base.BaseFragment;
 import butterknife.BindView;
 import butterknife.OnClick;
 import mvp.BasePresenter;
-import pay.AliPayActivity;
 
 /**
  * @author dingjinwen
@@ -42,6 +41,6 @@ public class FragmentThree extends BaseFragment {
 
     @OnClick(R.id.plus_one_button)
     public void onViewClicked() {
-        AliPayActivity.launch(getActivity());
+
     }
 }

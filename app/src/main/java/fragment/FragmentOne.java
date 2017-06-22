@@ -6,8 +6,8 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.ListView;
 
-import com.example.administrator.myapplication.MainActivity;
-import com.example.administrator.myapplication.R;
+import com.pay.administrator.myapplication.MainActivity;
+import com.pay.administrator.myapplication.R;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
