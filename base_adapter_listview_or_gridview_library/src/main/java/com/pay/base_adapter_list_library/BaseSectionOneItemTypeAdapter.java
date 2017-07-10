@@ -38,7 +38,7 @@ public abstract class BaseSectionOneItemTypeAdapter<T> extends BaseMultiItemType
         findSections();
     }
 
-    protected void updateData(List<T> data) {
+    public void updateData(List<T> data) {
         if (data != null) {
             mDatas.clear();
             mDatas.addAll(data);

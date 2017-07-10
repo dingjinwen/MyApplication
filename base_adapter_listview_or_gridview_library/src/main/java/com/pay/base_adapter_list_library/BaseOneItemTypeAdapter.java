@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,7 +24,12 @@ public abstract class BaseOneItemTypeAdapter<T> extends BaseAdapter {
     public BaseOneItemTypeAdapter(Context context, List<T> mDatas, int itemLayoutId) {
         this.mContext = context;
         this.mInflater = LayoutInflater.from(mContext);
-        this.mDatas = mDatas;
+        if (mDatas == null) {
+            this.mDatas = new ArrayList<>();
+        } else {
+            mDatas.clear();
+            this.mDatas = mDatas;
+        }
         this.mItemLayoutId = itemLayoutId;
     }
 
@@ -55,7 +61,7 @@ public abstract class BaseOneItemTypeAdapter<T> extends BaseAdapter {
         return ViewHolder.get(mContext, convertView, parent, mItemLayoutId, position);
     }
 
-    protected void updateData(List<T> data) {
+    public void updateData(List<T> data) {
         if (data != null) {
             mDatas.clear();
             mDatas.addAll(data);

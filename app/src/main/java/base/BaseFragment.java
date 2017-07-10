@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.zhy.m.permission.MPermissions;
+
 import org.greenrobot.eventbus.EventBus;
 
 import butterknife.ButterKnife;
@@ -91,6 +93,19 @@ public abstract class BaseFragment<P extends BasePresenter> extends Fragment imp
             EventBus.getDefault().unregister(this);
         }
         super.onDestroy();
+    }
+
+    /**
+     * 6.0权限-回调结果处理
+     *
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        MPermissions.onRequestPermissionsResult(this, requestCode, permissions, grantResults);
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     protected abstract void initView();

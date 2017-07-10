@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.example.administrator.myapplication"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 25//23以上要做6.0权限适配
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -25,15 +25,24 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    testCompile 'junit:junit:4.12'
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
-    compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.android.support:support-v4:25.3.1'
-    testCompile 'junit:junit:4.12'
+
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+
+    apt 'com.zhy:mpermission-compiler:1.0.0'
+    compile 'com.zhy:mpermission-api:1.0.0'
+
     compile 'org.greenrobot:eventbus:3.0.0'
     compile 'com.mcxiaoke.volley:library:1.0.19'
+
     compile files('libs/gson-2.6.2.jar')
     compile files('libs/glide-3.6.1.jar')
+
+    compile project(':base_adapter_listview_or_gridview_library')
+    compile project(':base_adapter_recyclerview_library')
 }
